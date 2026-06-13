@@ -1,5 +1,5 @@
 {% set name = "check-jsonschema" %}
-{% set version = "0.37.2" %}
+{% set version = "0.37.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/check_jsonschema-{{ version }}.tar.gz
-  sha256: 2977f31ebbd3e4eb37325057b83b56c0041b2b520e12818ec84da1f6c7c60363
+  sha256: 4d683589005c2b77a5f2dff41129ac5a6f92167e2f2ea0a8534446e3eddba239
 
 build:
   noarch: python
